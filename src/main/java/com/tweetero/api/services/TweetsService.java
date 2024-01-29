@@ -28,6 +28,9 @@ public class TweetsService {
         TweetsModel tweet = new TweetsModel(dto, user.get());
         return Optional.of(tweetRepository.save(tweet));
     }
+    public List<TweetsModel> findAll(){
+        return tweetRepository.findAll();
+    }
 
     public List<TweetsModel> findTweetsByUser(Long id){
         return tweetRepository.findTweetsByUserId(id);

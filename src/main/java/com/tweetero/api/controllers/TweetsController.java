@@ -35,6 +35,12 @@ public class TweetsController {
         return ResponseEntity.status(HttpStatus.CREATED).body(tweet);
     }
 
+    @GetMapping
+    public ResponseEntity<List<TweetsModel>> findAllTweets(){
+        List<TweetsModel> tweets = tweetService.findAll();
+        return ResponseEntity.status(HttpStatus.OK).body(tweets);
+    }
+
     @GetMapping("/user/{id}")
     public ResponseEntity<List<TweetsModel>> findTweetsByUser(@PathVariable("id") Long id){
         List<TweetsModel> tweets = tweetService.findTweetsByUser(id);
