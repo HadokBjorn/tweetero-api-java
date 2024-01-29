@@ -1,5 +1,6 @@
 package com.tweetero.api.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
@@ -26,5 +27,9 @@ public class TweetsService {
         }
         TweetsModel tweet = new TweetsModel(dto, user.get());
         return Optional.of(tweetRepository.save(tweet));
+    }
+
+    public List<TweetsModel> findTweetsByUser(Long id){
+        return tweetRepository.findTweetsByUserId(id);
     }
 }
