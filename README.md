@@ -51,7 +51,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
         ```java
         {
             username: "bobesponja",
-        	avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
+            avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
         }
         ```
         
@@ -61,7 +61,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
         {
         	id: 1,
             username: "bobesponja",
-        	avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
+            avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info"
         }
         ```
         
@@ -78,7 +78,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
         ```java
         {
             userId: 1,
-            text: "eu amo hamburguer de siri"
+            tweet: "eu amo hamburguer de siri"
         }
         ```
         
@@ -88,7 +88,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
         ```java
         {
           "id": 20,
-          "text": "eu amo hamburguer de siri",
+          "tweet": "eu amo hamburguer de siri",
           "user": {
             "id": 1,
             "username": "bobesponja",
@@ -110,7 +110,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
     [
     {
         "id": 20,
-        "text": "meu primeiro tweet",
+        "tweet": "meu primeiro tweet",
         "user": {
             "id": 1,
             "username": "bobesponja",
@@ -119,7 +119,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
     },
     {
         "id": 21,
-        "text": "eu moro numa pedra",
+        "tweet": "eu moro numa pedra",
         "user": {
             "id": 2,
             "username": "patrick",
@@ -128,7 +128,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
     },
     {
         "id": 22,
-        "text": "eu amo hambúrguer de siri",
+        "tweet": "eu amo hambúrguer de siri",
         "user": {
             "id": 1,
             "username": "bobesponja",
@@ -149,7 +149,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
         [
           {
             "id": 20,
-            "text": "meu primeiro tweet",
+            "tweet": "meu primeiro tweet",
             "user": {
               "id": 1,
               "username": "bobesponja",
@@ -158,7 +158,7 @@ Com isso feito, você pode rodar a aplicação e ela estará funcionando localme
           },
           {
             "id": 22,
-            "text": "eu amo hambúrguer de siri",
+            "tweet": "eu amo hambúrguer de siri",
             "user": {
               "id": 1,
               "username": "bobesponja",
