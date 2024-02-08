@@ -29,7 +29,7 @@ public class TweetsService {
         return Optional.of(tweetRepository.save(tweet));
     }
     public List<TweetsModel> findAll(){
-        return tweetRepository.findAll();
+        return tweetRepository.findTweetsOrdened();
     }
 
     public List<TweetsModel> findTweetsByUser(Long id){

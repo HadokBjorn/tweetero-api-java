@@ -13,4 +13,9 @@ import com.tweetero.api.models.TweetsModel;
 public interface TweetsRepository extends JpaRepository<TweetsModel, Long> {
     @Query(value = "SELECT * FROM tweets WHERE user_id = :userId", nativeQuery = true)
     List<TweetsModel> findTweetsByUserId(@Param("userId") Long userId);
+
+    @Query(value = "SELECT * FROM tweets ORDER BY tweets.id DESC", nativeQuery = true)
+    List<TweetsModel> findTweetsOrdened();
+
+
 }
